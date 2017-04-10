@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2to-vt-7oY">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tvE-VL-7rn">
+            <objects>
+                <viewController id="uCb-HX-4TS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2TR-Tj-Eos"/>
+                        <viewControllerLayoutGuide type="bottom" id="c61-sH-wrg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dFs-Ad-PNX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="482-WQ-g2v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ha7-XV-OTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="2153"/>
+        </scene>
+        <!--关注-->
+        <scene sceneID="yBY-uQ-KBF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2to-vt-7oY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="关注" image="btn_heart_attention" selectedImage="btn_heart_attentioned" id="ql7-f8-CZT"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="agl-b5-aC0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uCb-HX-4TS" kind="relationship" relationship="rootViewController" id="Lfe-GE-2ML"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xhx-vc-05r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="2153"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_heart_attention" width="13" height="11"/>
+        <image name="btn_heart_attentioned" width="13" height="11"/>
+    </resources>
+</document>
